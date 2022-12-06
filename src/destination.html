@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="index_css/index.css">
+    <script src="script.js" defer></script>
+    <title>SpaceTourism</title>
+</head>
+<body class="destination-body">
+
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+               <a href="index.html"><img src="assets/shared/logo.svg" alt="Space tourism logo"></a>
+            </div>
+            <div class="mobile-nav-toggle">
+                <img data-open-menu src="assets/shared/icon-hamburger.svg" alt="Open mobile menu">
+                <img data-close-menu class="hide" src="assets/shared/icon-close.svg" alt="Open mobile menu">
+            </div>
+            <nav data-menu-list>
+                <ul role="list" class="nav-list">
+                    <li class="nav-item"><span class="nav-text">00</span><a class="nav-text" href="index.html">Home</a></li>
+                    <li class="nav-item active"><span class="nav-text">01</span><a class="nav-text" href="destination.html">Destination</a></li>
+                    <li class="nav-item"><span class="nav-text">02</span><a class="nav-text" href="crew.html">Crew</a></li>
+                    <li class="nav-item"><span class="nav-text">03</span><a class="nav-text" href="technology.html">Technology</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class='destination'>
+        
+        <section class="hero-section">
+            
+            <div class="container">
+                <h1 class="title"><span>01</span>PICK YOUR DESTINATION</h1>
+                <div class="img-container">
+                    <img data-planet-img class="planet-img" src="assets/destination/image-moon.png" alt="Moon image">
+                </div>
+                <ul class="planet-list" role="list">
+                    <li class="planet active"><button class="planet-btn">MOON</button></li>
+                    <li class="planet"><button class="planet-btn">MARS</button></li>
+                    <li class="planet"><button class="planet-btn">EUROPA</button></li>
+                    <li class="planet"><button class="planet-btn">TITAN</button></li>
+                </ul>
+                <div class="planet-data">
+                    <div class="planet-info">
+                        <div class="planet-header">
+                            <h3 class="planet-title" data-planet-name>MOON</h3>
+                            <p class="planet-text" data-planet-text>
+                                See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.
+                            </p>
+                        </div>
+                        <div class="planet-footer">
+                            <div class="distance">
+                                <h4>AVG. DISTANCE</h4>
+                                <p data-avg-distance>384,400 KM</p>
+                            </div>
+                            <div class="travel-time">
+                                <h4>EST. TRAVEL TIME</h4>
+                                <p data-est-travel>3 DAYS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    
+</body>
+</html>
